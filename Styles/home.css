@@ -1,0 +1,36 @@
+.NavLinkStyle{
+    background-color: lightgray;
+    color: black; 
+    font: 1em sans-serif;
+    padding: 10px; 
+    margin: 10px; 
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+     
+}
+#NavLinkStyle{
+    color: black;
+    font-size: large;
+    font: 1em sans-serif; 
+}
+.Header{
+    color: black;
+    font: 1em TektonPro; 
+    background-color: rgb(69, 143, 69);
+
+    top: 10%;  
+    
+}
+.background{
+    opacity: 15%; 
+    overflow: hidden;
+    height: 100%; 
+    width: 100%; 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+    object-fit: cover;
+
+}
