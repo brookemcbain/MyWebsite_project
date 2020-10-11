@@ -16,21 +16,19 @@
 }
 .Header{
     color: black;
-    font: 1em TektonPro; 
-    background-color: rgb(69, 143, 69);
+    
+     
+    background-color: rgb(133, 133, 189);
+    text-align: center; 
 
-    top: 10%;  
     
 }
 .background{
-    opacity: 15%; 
-    overflow: hidden;
-    height: 100%; 
+    background-image: url(imgs/SouthDakota.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
     width: 100%; 
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    z-index: -1; 
-    object-fit: cover;
-
+    height: 100%; 
+    opacity: 30%;
+   
 }
