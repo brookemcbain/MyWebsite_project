@@ -1,34 +1,44 @@
-.NavLinkStyle{
-    background-color: lightgray;
-    color: black; 
-    font: 1em sans-serif;
-    padding: 10px; 
-    margin: 10px; 
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
-     
-}
-#NavLinkStyle{
-    color: black;
-    font-size: large;
-    font: 1em sans-serif; 
-}
 .Header{
-    color: black;
-    
-     
-    background-color: rgb(133, 133, 189);
+    color: white;  
+    background-color: black; 
     text-align: center; 
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size: 50pt;
+    font-weight: bold;   
     
 }
-.background{
-    background-image: url(imgs/SouthDakota.jpg); 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    width: 100%; 
-    height: 100%; 
-    opacity: 30%;
+.welcome{
+    color: black; 
+    background-color: teal;
+    text-align: center; 
+    opacity: 60%; 
+    font-size: 20pt; 
+    font-weight: bold; 
+}
+.Intro{
+    color: black; 
+    text-align: center; 
+    background-color: rgb(100, 100, 209); 
+}
+.body{
+    background-color: whitesmoke;  
    
 }
+.NavLinkStyle{
+    background-color: white; 
+    color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left; 
+    color: black;     
+    padding: 30px; 
+    margin: 50px; 
+    border-width: 3px;
+    border-style: dashed; 
+    border-color: black;    
+}
+.background{
+    text-align: right;
+        
+}
+
+
