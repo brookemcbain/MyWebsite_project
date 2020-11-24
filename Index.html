@@ -1,26 +1,62 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Brooke McBain</title>
-        <link rel="stylesheet" type="text/css" href="styles/home.css">
-    </head>
-    <body class = "body">
-    <div class = "Header">BROOKE MCBAIN</div>
-    <div class = "welcome"> Welcome! </div>  
-    <div class = "NavLinkStyle">
-        <a href= "Pages/AboutMe.html">ABOUT ME</a> 
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Brooke McBain</title>
+</head>
+<body>  
+<div class="background">
+    <div class="nav">
+        <a class="a active" href="#">HOME</a>
+        <a class="b" href="#">ABOUT ME</a>
+        <a class="c" href="#">CONTACT</a>
     </div>
-    <div class = "NavLinkStyle">
-        <a href= "Pages/Contact.html">CONTACT</a>
-    </div>
-    <div class = "NavLinkStyle">
-         <a href= "Pages/Projects.html>">PROJECTS</a>
-    </div>
-        
-    <div class = "background">
-        <img src="imgs/South Dakota.jpg"/>
+    <div class="content">
+        <div class="home">
+            <h1>Brooke McBain</h1>
+            <h3>Junior Software Developer</h3>
+        </div>
+        <div class="aboutus"></div>
+            <p style="color: white"><b>Hello,<br>
+                 My name is Brooke McBain</b><br>
+                 I am 26 years old and I am a Junior Software Developer in Milwaukee. 
+                 I currently hold an undergraduate degree in Business Marketing and will 
+                 be finishing up DevCodeCamp Bootcamp in Decemeber of 2020. Feel free to browse through any of
+                 my projects in the projects tab or learn a little bit more about me on the 
+                 About Me tab. If you have any questions, feel free to contact. Thanks! 
+
+            
+            </p>
     </div>
 
-    </body>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('a').click(function(){
+        //alert("I am click"); 
+        var selected = $(this); 
+        $('a').removeClass('.active');
+        $(selected).addClass('active');
+        });
+
+        var $a = $('.a'), 
+        $b = $('.b'),
+        $c = $('.c'), 
+        $home = $('.home'), 
+        $aboutme = $('.aboutme'); 
+
+        $a.click(function(){
+            $home.fadeIn(), 
+            $aboutme.fadeout(); 
+        }); 
+        $b.click(function(){
+            $aboutme.fadeOut(); 
+            $home.fadeIn(); 
+        }); 
+    });
+</script>
+</body>
 </html>
-
